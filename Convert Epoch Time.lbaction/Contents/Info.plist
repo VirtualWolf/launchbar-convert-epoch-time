@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>clock.svg</string>
+	<key>CFBundleIdentifier</key>
+	<string>org.virtualwolf.LaunchBar.action.ConvertEpochTime</string>
+	<key>CFBundleName</key>
+	<string>Convert Epoch Time</string>
+	<key>LBArgument</key>
+	<string>Epoch time</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBArgument</key>
+		<string>Epoch time</string>
+		<key>LBAuthor</key>
+		<string>VirtualWolf</string>
+		<key>LBEmail</key>
+		<string></string>
+		<key>LBResult</key>
+		<string>Date string</string>
+		<key>LBSummary</key>
+		<string>With no input, gives the current epoch time in seconds and milliseconds. When given an epoch time, converts it to local time and UTC time.</string>
+		<key>LBTwitter</key>
+		<string></string>
+		<key>LBWebsiteURL</key>
+		<string>https://virtualwolf.org</string>
+	</dict>
+	<key>LBResult</key>
+	<string>Date string</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBAcceptedArgumentTypes</key>
+			<array>
+				<string>string</string>
+			</array>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>unknown</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.js</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

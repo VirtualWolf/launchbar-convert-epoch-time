@@ -3,11 +3,13 @@ function run(argument) {
         return [
             {
                 title: `${Math.floor(Date.now()/1000)}`,
-                subtitle: 'Current time in seconds',
+                badge: 'Current time in seconds',
+                icon: 'clockTemplate',
             },
             {
                 title: `${Date.now()}`,
-                subtitle: 'Current time in milliseconds',
+                badge: 'Current time in milliseconds',
+                icon: 'clockTemplate'
             },
         ]
     }
@@ -53,15 +55,15 @@ function formatDatetime({dateObject, isUtc}) {
 function utcTime(title) {
     return {
         title,
-        subtitle: 'Time in UTC',
-        alwaysShowsSubtitle: true,
+        badge: 'UTC',
+        icon: 'clockTemplate',
     }
 }
 
 function localTime(title) {
     return {
         title,
-        subtitle: 'Local time',
-        alwaysShowsSubtitle: true,
+        badge: 'Local',
+        icon: 'clockTemplate',
     }
 }

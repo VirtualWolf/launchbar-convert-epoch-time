@@ -3,11 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>clock.svg</string>
+	<string>clockTemplate.svg</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.virtualwolf.LaunchBar.action.ConvertEpochTime</string>
 	<key>CFBundleName</key>
 	<string>Convert Epoch Time</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.1</string>
 	<key>LBArgument</key>
 	<string>Epoch time</string>
 	<key>LBDescription</key>
